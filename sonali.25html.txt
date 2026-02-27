@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daily News</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Georgia, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #ddd;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        main {
+            display: flex;
+            padding: 20px;
+        }
+
+        section {
+            flex: 3;
+            margin-right: 20px;
+        }
+
+        article {
+            background: white;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        aside {
+            flex: 1;
+            background: #eaeaea;
+            padding: 15px;
+        }
+
+        footer {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>THE DAILY TIMES</h1>
+    <p>Your Trusted News Source</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Politics</a>
+    <a href="#">Sports</a>
+    <a href="#">Technology</a>
+</nav>
+
+<main>
+    <section>
+        <article>
+            <h2>Breaking: Major Tech Innovation Announced</h2>
+            <p>A revolutionary technology has been introduced today that is expected to change the industry.</p>
+        </article>
+
+        <article>
+            <h2>Sports: Local Team Wins Championship</h2>
+            <p>The city celebrates as the local team secures a historic victory in the finals.</p>
+        </article>
+    </section>
+
+    <aside>
+        <h3>Trending Headlines</h3>
+        <ul>
+            <li>Market hits record high</li>
+            <li>Weather update: Heavy rain expected</li>
+            <li>New education policy introduced</li>
+        </ul>
+    </aside>
+</main>
+
+<footer>
+    <p>© 2026 The Daily Times | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
